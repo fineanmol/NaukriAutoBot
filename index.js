@@ -3,8 +3,8 @@ const axios = require("axios");
 async function makeRequestToBot() {
   let data = await axios
     .post("http://152.67.1.129:8080/launch", {
-      email: "youremail@domain.com",
-      password: "yourpassword",
+      email: "agarwal.anmol2004@gmail.com",
+      password: "Anmol@123",
     })
     .then((response) => {
       return response.data;
