@@ -19,4 +19,4 @@ async function makeRequestToBot() {
   console.log(readme);
 }
 
-//makeRequestToBot();
+makeRequestToBot();
