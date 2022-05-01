@@ -36,7 +36,7 @@ jobs:
         run: node index.js > README.md
       - name: Commit change & Push
         run: |
-            git config user.name 'nnishad'
-            git config user.email 'nikhilnishad279@gmail.com'
+            git config user.name 'fineanmol'
+            git config user.email 'anmol.agarwal2004@yahoo.com'
             git commit -am "🙊 Workflow Commit."
             git push
